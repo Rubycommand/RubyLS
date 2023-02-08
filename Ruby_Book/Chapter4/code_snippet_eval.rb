@@ -20,4 +20,4 @@ elsif (y + 1) == x
   puts "ALRIGHT NOW!"
 else
   puts "Alrighty!"
-end #Alright now
+end #Alright now!
