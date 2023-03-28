@@ -6,5 +6,5 @@ puts name, save_name # Alice, Bob. name was changed to point to 'Alice', but sav
 
 name = 'Bob'
 save_name = name # Here, name and save_name both point to 'Bob'
-name.upcase!     # now, name is destructively changed. Old 'Bob' no longer exists.
+name.upcase!     # now, name is mutated. The old version of 'Bob' no longer exists.
 puts name, save_name # Here, both name and save_name point to 'BOB'
